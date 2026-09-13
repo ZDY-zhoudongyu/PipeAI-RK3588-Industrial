@@ -4,8 +4,6 @@
 
 Version: v1.24
 
-> 本文档用于项目性能说明、面试展示以及部署评估。指标基于当前 Runtime 架构（RKNN INT8 + Pipeline + BufferPool + Queue + 多线程 Worker）进行整理，最终硬件实测数据需在目标 RK3588 板卡 profiling 后更新。
-
 ---
 
 # 1. Runtime Overview
