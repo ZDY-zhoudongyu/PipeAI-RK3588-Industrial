@@ -1,0 +1,11 @@
+# Training configuration template
+
+dataset:
+  path: ""
+
+model:
+  name: PipeAI
+
+training:
+  epochs: 100
+  batch_size: 32

@@ -1,0 +1,17 @@
+model:
+  path: model/rknn/pipe_model.rknn
+
+input:
+  sequence: 128
+  channels: 9
+
+classes:
+  - normal
+  - collapse
+  - bulge
+  - flip
+  - torsion
+
+runtime:
+  workers: 4
+  confidence_threshold: 0.8

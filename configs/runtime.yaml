@@ -1,0 +1,8 @@
+# Runtime configuration template
+
+model:
+  path: ""
+
+runtime:
+  device: RK3588
+  precision: INT8
